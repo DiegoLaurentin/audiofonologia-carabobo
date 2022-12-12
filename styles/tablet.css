@@ -1,0 +1,77 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+/* ------------------------------------------- */
+/* MAIN */
+
+.bienvenidos {
+    padding-left: 40px;
+}
+
+.main--welcome-text {
+    padding-left: 40px;
+    width: 600px;
+    margin: 24px;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--White);
+}
+
+.Objetivos-Section--Especificos--list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.Objetivos-Section--Especificos-Card {
+    margin-top: 20px;
+    max-width: 335px;
+}
+
+.Resena-Historica--Info{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+
+}
+
+.Resena-Historica--Image {
+    width: 50%;
+    border-radius: 5px;
+}
+
+.Fundation--Info{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+
+}
+
+.Fundation--Image {
+    width: 50%;
+    border-radius: 5px;
+}
+
+.yellow-background {
+    margin-top: 100px;
+    height: 750px;
+    background-image: url('../images/svg/Yellow-Background.svg');
+}
+
+#Terapia-de-Lenguaje {
+    margin: 0 14%;
+}
+
+#Mas-Alla {
+    margin: 40px 14%;
+}
+
+.footer--image {
+    width: 300px;
+}   
+
+.footer--contact-section {
+    justify-content: space-around;
+}

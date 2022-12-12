@@ -1,0 +1,498 @@
+:root {
+    
+    /* Primary Colors */
+    --primary: #1239A6;
+    --Black: #141414;
+    
+    /* Secundary Colors */
+    --Yellow: #FFAE21;
+    --Light-Red: #ED5236;
+    --Light-Green: #29CF00;
+    --Medium: #FDFDFD;
+    --White: #FFFFFF;
+    --Blue: #001C6C;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Inter';
+    background-color: var(--White);
+}
+
+
+/* ------------------------------------------- */
+/* HEADER */
+
+header {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;    
+}
+
+.header--social-media {
+    display: flex;
+    gap: 20px;
+}
+
+.header--social-media--img {
+    cursor: pointer;
+}
+
+.header--divider-line{
+    display: block;
+    margin-top: 20px;
+    width: 100%;
+    height: 16px;
+    background-color: var(--primary);
+}
+
+/* ------------------------------------------- */
+/* MAIN */
+
+.main--welcome {
+    width: 100%;
+    height: 310px;
+    background-image: url('../images/bienvenidos-bg.jpg');
+    background-repeat: no-repeat;
+}
+
+.bienvenidos{
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 90px;
+}
+
+.main--welcome-text {
+    margin: 24px;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--White);
+}
+
+/* ------------------------------------------- */
+/* MISSION SECTION */
+
+#Mission {
+    margin: 20px;
+}
+
+.mission--image{
+    width: 100%;
+}
+
+.mission--card {
+    width: 100%;
+    margin-top: 20px;
+    max-height: 280px;
+    background-color: var(--Light-Red);
+    border-radius: 5px;
+    color: var(--White);
+}
+
+.mission--card-head-text {
+   margin-left: 20px;
+   padding-top: 20px;
+   font-size: 20px;
+   font-weight: 700;
+
+}
+
+.mission--divider-line {
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 2px;
+    width: 150px;
+    background-color: var(--White);
+}
+
+.mission--card-text {
+    margin: 20px;
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+
+/* ------------------------------------------- */
+/* VISSION SECTION */
+
+#Vision {
+    margin: 20px;
+}
+
+.vision--image{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.vision--card {
+    width: 100%;
+    max-height: 280px;
+    margin-top: 20px;
+    background-color: var(--Light-Green);
+    border-radius: 5px;
+    color: var(--White);
+}
+
+.vision--card-head-text {
+   margin-left: 20px;
+   padding-top: 20px;
+   font-size: 20px;
+   font-weight: 700;
+
+}
+
+.vision--divider-line {
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 2px;
+    width: 150px;
+    background-color: var(--White);
+}
+
+.vision--card-text {
+    margin: 20px;
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+
+
+/* ------------------------------------------- */
+/* OBJETIVOS SECTION */
+
+#Objetivos {
+    width: 100%;
+    padding-bottom: 40px;
+    background-color: var(--primary);
+}
+
+.Objetivos-General-h3 {
+    margin: 20px;
+    padding-top: 20px;
+    font-size: 30px;
+    color: var(--White);
+}
+
+.Objetivos-General--Info {
+    margin: 20px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: var(--White);
+    border-radius: 5px;
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07), 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198), 0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275), 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+}
+
+
+.Objetivos-Especificos-h3 {
+    margin: 20px;
+    padding-top: 20px;
+    font-size: 30px;
+    color: var(--White);
+}
+
+/* FIRST CARD */
+/* SECOND CARD */
+
+.Objetivos-Section--Especificos-Card {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    border-radius: 5px;
+    background-color: var(--White);
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07), 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198), 0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275), 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+    gap: 10px;
+}
+
+.Objetivos-Section--Especificos-Card--Primero-h4{
+    margin: 10px;
+    font-size: 20px;
+}
+
+.Objetivos-Section--Especificos-Card--Primero {
+    height: 10px;
+    background-color: var(--Blue);
+}
+
+.Objetivos-Section--Especificos-Card--Primero-p {
+    margin: 10px;
+}
+
+
+/* SECOND CARD */
+
+.Objetivos-Section--Especificos-Card {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    border-radius: 5px;
+    background-color: var(--White);
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07), 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198), 0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275), 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+    gap: 10px;
+}
+
+.Objetivos-Section--Especificos-Card--Segundo-h4{
+    margin: 10px;
+    font-size: 20px;
+}
+
+.Objetivos-Section--Especificos-Card--Segundo {
+    height: 10px;
+    background-color: var(--Yellow);
+}
+
+.Objetivos-Section--Especificos-Card--Segundo-p {
+    margin: 10px;
+}
+
+/* THIRD CARD */
+
+.Objetivos-Section--Especificos-Card {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    border-radius: 5px;
+    background-color: var(--White);
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07), 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198), 0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275), 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+    gap: 10px;
+}
+
+.Objetivos-Section--Especificos-Card--Tercero-h4{
+    margin: 10px;
+    font-size: 20px;
+}
+
+.Objetivos-Section--Especificos-Card--Tercero {
+    height: 10px;
+    background-color: var(--Light-Red);
+}
+
+.Objetivos-Section--Especificos-Card--Tercero-p {
+    margin: 10px;
+}
+
+
+/* FOURTH CARD */
+
+.Objetivos-Section--Especificos-Card {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    border-radius: 5px;
+    background-color: var(--White);
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07), 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198), 0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275), 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+    gap: 10px;
+}
+
+.Objetivos-Section--Especificos-Card--Cuarto-h4{
+    margin: 10px;
+    font-size: 20px;
+}
+
+.Objetivos-Section--Especificos-Card--Cuarto {
+    height: 10px;
+    background-color: var(--Light-Green);
+}
+
+.Objetivos-Section--Especificos-Card--Cuarto-p {
+    margin: 10px;
+}
+
+
+/* ------------------------------------------- */
+/* RESENA HISTORICA SECTION */
+
+#Resena-Historica {
+    background-color: var(--White);
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07), 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198), 0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275), 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+}
+
+.Resena-Historica--h3 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.Resena-Historica--Divider {
+    margin-bottom: 20px;
+    width: 150px;
+    height: 2px;
+    background-color: var(--Black);
+}
+
+.Resena-Historica--Image {
+    width: 100%;
+}
+
+
+
+/* ------------------------------------------- */
+/* FUNDATION */
+
+#Fundation {
+    position: absolute;
+    background-color: var(--White);
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07), 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198), 0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275), 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+}
+
+.Fundation--h3 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.Fundation--Divider {
+    margin-bottom: 20px;
+    width: 150px;
+    height: 2px;
+    background-color: var(--Black);
+}
+
+.Fundation--p {
+    margin-top: 20px;
+}
+
+.Fundation--Image {
+    width: 100%;
+}
+
+/* ------------------------------------------- */
+/* YELLOW BACKGROUND SECTION */
+
+
+.yellow-background {
+    margin-top: 450px;
+    width: 100%;
+    height: 498px;
+    background-image: url('../images/svg/Yellow-Background--Mobile.svg');
+}
+
+/* ------------------------------------------- */
+/* TERAPIA DE LENGUAJE SECTION */
+
+#Terapia-de-Lenguaje {
+    margin: 20px;
+}
+
+.Terapia-de-Lenguaje--Image{
+    margin-bottom: 20px;
+    width: 90%;
+}
+
+.Terapia-de-Lenguaje--Divider {
+    height: 2px;
+    width: 150px;
+    margin-top: 20px;
+    background-color: var(--Black);
+}
+
+.Terapia-de-Lenguaje--Info-p {
+    padding-top: 20px;
+    font-size: 16px;
+}
+
+
+/* ------------------------------------------- */
+/* MAS ALLA SECTION */
+
+#Mas-Alla {
+    margin: 20px;
+}
+
+.Mas-Alla-Image {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    width: 90%;
+}
+
+.Mas-Alla--Divider {
+    height: 2px;
+    width: 150px;
+    margin-top: 20px;
+    background-color: var(--Black);
+}
+
+.Mas-Alla--Info-p {
+    padding-top: 20px;
+    font-size: 16px;
+}
+
+/* ------------------------------------------- */
+/* FOOTER SECTION */
+footer {
+    margin-top: 50px;
+}
+
+.footer--contact-section {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Medium);
+}
+
+.footer--contact-section-info-h4 {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--Blue);
+}
+
+.footer--contact-section-info--phone {
+    margin-top: 10px;
+} 
+
+.footer--contact-section-info--phone {
+    display: flex;
+    gap: 10px;
+}
+.footer--contact-section-info--phone-text {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+.footer--contact-section-info--Email {
+    margin-top: 10px;
+} 
+
+.footer--contact-section-info--Email {
+    display: flex;
+    gap: 10px;
+}
+.footer--contact-section-info--Email-text {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+ 
+.footer--image {
+    margin-top: 20px;
+    width: 200px;
+}
+
+.footer--line-section {
+    display: flex;
+    height: 60px;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--White);
+    font-size: 14px;
+    font-weight: 600;
+    background-color: var(--Blue);
+}
+
+.footer--social-media {
+    display: flex;
+    gap: 10px;
+}

@@ -1,0 +1,86 @@
+#Mission {
+    display: flex;
+    gap: 20px;
+}
+
+.mission--image {
+    width: 50%;
+}
+
+#Vision {
+  display: flex; 
+  gap: 20px;
+}
+
+.vision--image {
+  width: 50%;
+}
+
+.Objetivos-Section--General {
+  margin: 0 10%;
+}
+
+.Objetivos-General--Info {
+  max-width: 1130px;
+}
+
+.Objetivos-Section--Especificos {
+  margin: 0 10%;
+}
+
+.Objetivos-Section--Especificos--list {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+#Resena-Historica {
+  margin: 40px;
+  max-width: 1400px;
+}
+
+#Fundation {
+  position: absolute;
+  max-width: 1400px;
+  margin: 40px;
+}
+
+
+#Terapia-de-Lenguaje {
+  margin: 40px;
+  display: flex;
+  justify-content: space-between;
+  text-align: right;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.Terapia-de-Lenguaje--Image {
+  max-width: 500px;
+  justify-content: center;
+}
+
+.Terapia-de-Lenguaje--Divider {
+  display: block;
+  opacity: 0;
+}
+
+.Terapia-de-Lenguaje--Info-p {
+  max-width: 500px;
+  margin-left: 20px;
+}
+
+#Mas-Alla {
+  display: flex;
+  justify-content: space-between;
+  text-align: right;
+  margin: 40px;
+}
+
+.Mas-Alla-Image {
+  max-width: 500px;
+}
+
+.Mas-Alla--Info-p {
+  max-width: 500px;
+  margin-left: 20px;
+}
