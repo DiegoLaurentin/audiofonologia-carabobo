@@ -23,6 +23,7 @@ header {
 .Objetivos-Section--Especificos--list {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    margin-left: 20px;
     gap: 15px;
 }
 
@@ -30,6 +31,10 @@ header {
     margin: 0;
     margin-top: 20px;
     max-width: 335px;
+}
+
+.Objetivos-Background--Transform {
+    margin: 0;
 }
 
 .Resena-Historica--Info{

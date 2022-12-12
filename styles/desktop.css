@@ -1,6 +1,14 @@
 .main--welcome {
-    width: 1575px;
-    margin: 0 10%;
+    margin: auto;
+    background-repeat: repeat;
+}
+
+.bienvenidos {
+    margin-left: 160px;
+}
+
+.main--welcome-text {
+    margin-left: 160px;
 }
 
 #Mission {
@@ -8,13 +16,70 @@
     margin-top: 20px;
 }
 
+.mission--card {
+    height: 443px;
+}
+.mission--card-head-text {
+    font-size: 24px;
+}
+
+.mission--divider-line {
+    margin-top: 40px;
+}
+
+.mission--card-text {
+    margin-top: 60px;
+    font-size: 16px;
+    margin-right: 50px;
+}
+
 #Vision {
     margin: 0 10%;
     margin-top: 20px;
 }
 
+.vision--desktop {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+.vision--card {
+    height: 430px;
+    margin: 0;
+}
+
+.vision--card-head-text {
+    font-size: 24px;
+}
+
+.vision--divider-line {
+    margin-top: 40px;
+}
+
+.vision--card-text {
+    margin-top: 60px;
+    font-size: 16px;
+    padding-right: 50px;
+}
+
 .Objetivos-General-h3 {
     margin-left: 175px;
+}
+
+.Objetivos-Especificos-h3 {
+    margin-left: 175px;
+}
+
+.Objetivos-Section--Especificos--list {
+    width: 80%;
+    margin: 0 auto;
+    gap: 15px;
+}
+
+.Objetivos-Section--Especificos-Card {
+    height: 365px;
 }
 
 .Objetivos-General--Info {
@@ -29,15 +94,15 @@
 
 #Fundation {
     margin: 0 10%;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 #Terapia-de-Lenguaje {
-    margin: 0 10%;
+    margin: 0 17%;
     margin-top: 20px;
 }
 
 #Mas-Alla {
-    margin: 0 10%;
+    margin: 0 16%;
     margin-top: 20px;
 }

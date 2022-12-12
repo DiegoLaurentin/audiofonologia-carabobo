@@ -1,3 +1,7 @@
+.header--divider-line {
+  height: 30px;
+}
+
 #Mission {
     display: flex;
     gap: 20px;
@@ -10,6 +14,20 @@
 #Vision {
   display: flex; 
   gap: 20px;
+}
+.vision--mobile {
+  display: none;
+}
+
+.vision--desktop {
+  display: flex;
+  gap: 20px;
+ 
+}
+
+.vision--card {
+  height: 100%;
+  margin: 0;
 }
 
 .vision--image {
@@ -43,9 +61,20 @@
   margin: 40px;
 }
 
+.Fundation--mobile {
+  display: none;
+}
+
+.Fundation--Desktop {
+  display: block;
+}
+
+.Fundation--Info-div {
+  margin-left: 15px;
+}
 
 #Terapia-de-Lenguaje {
-  margin: 40px;
+  margin: 20px 10%;
   display: flex;
   justify-content: space-between;
   text-align: right;
@@ -69,12 +98,14 @@
   margin-left: 20px;
 }
 
-#Mas-Alla {
-  margin: 40px;
-}
+
 .mas-alla-mobile {
   display: none;
   opacity: 0;
+}
+
+#Mas-Alla {
+  margin: 20px 10%;
 }
 
 .mas-alla-desktop {
@@ -89,5 +120,4 @@
 
 .Mas-Alla--Info-p {
   max-width: 500px;
-  margin-left: 20px;
 }
