@@ -168,7 +168,6 @@ header {
 
 #Objetivos {
     width: 100%;
-    padding-bottom: 40px;
     background-color: var(--primary);
 }
 
@@ -197,8 +196,13 @@ header {
     color: var(--White);
 }
 
+.Objetivos-Background--Transform {
+    height: 160px;
+    background-image: url('../images/Mask\ group.png');
+    transform: rotate(180deg);
+}
+
 /* FIRST CARD */
-/* SECOND CARD */
 
 .Objetivos-Section--Especificos-Card {
     display: flex;
@@ -407,6 +411,11 @@ header {
 
 #Mas-Alla {
     margin: 20px;
+}
+
+.mas-alla-desktop {
+    display: none;
+    opacity: 0;
 }
 
 .Mas-Alla-Image {

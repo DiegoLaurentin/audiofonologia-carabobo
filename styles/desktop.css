@@ -1,4 +1,43 @@
-main {
-    width: 1440px;
-    margin: 0 231px;
+.main--welcome {
+    width: 1575px;
+    margin: 0 10%;
+}
+
+#Mission {
+    margin: 0 10%;
+    margin-top: 20px;
+}
+
+#Vision {
+    margin: 0 10%;
+    margin-top: 20px;
+}
+
+.Objetivos-General-h3 {
+    margin-left: 175px;
+}
+
+.Objetivos-General--Info {
+    max-width: 1135px;
+    margin: 0 auto;
+}
+
+#Resena-Historica {
+    margin: 0 10%;
+    margin-top: 20px;
+}
+
+#Fundation {
+    margin: 0 10%;
+    margin-top: 20px;
+}
+
+#Terapia-de-Lenguaje {
+    margin: 0 10%;
+    margin-top: 20px;
+}
+
+#Mas-Alla {
+    margin: 0 10%;
+    margin-top: 20px;
 }

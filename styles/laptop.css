@@ -70,12 +70,19 @@
 }
 
 #Mas-Alla {
-  display: flex;
-  justify-content: space-between;
-  text-align: right;
   margin: 40px;
 }
+.mas-alla-mobile {
+  display: none;
+  opacity: 0;
+}
 
+.mas-alla-desktop {
+  display: flex;
+  opacity: 1;
+  justify-content: space-between;
+  text-align: left;
+}
 .Mas-Alla-Image {
   max-width: 500px;
 }
